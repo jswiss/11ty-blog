@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
-    "target": "ESNEXT",
+    "target": "es5",
     "module": "commonjs",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "rootDir": "./src/app/"
+    "rootDir": "./src/app/",
+    "baseUrl": "./"
   }
 }

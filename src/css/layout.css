@@ -1,0 +1,42 @@
+body {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: 20% auto 20%;
+  grid-gap: 1rem;
+}
+
+#main {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+#home-link {
+  font-weight: bold;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.5rem;
+  margin: 0 1rem;
+}
+
+.nav-links:hover {
+  filter: brightness(140%) saturate(140%);
+  text-decoration: underline;
+}
+
+.blogs {
+  font-size: 2rem;
+}
